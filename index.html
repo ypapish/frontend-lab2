@@ -1,1 +1,80 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Папіш Яна Олександрівна ІМ-31, ЛР№2, варіант 3</title>
+    <style>
+        table {
+            width: 800px;
+            table-layout: fixed;
+            border-collapse: collapse;
+        }
 
+        td {
+            height: 75px;
+            overflow: hidden;
+            text-align: center;
+            vertical-align: middle;
+            border: 1px solid black;
+        }
+
+        tr.first-row {
+            color: #000000;
+            background-color: #338f8f;
+        }
+
+        tr.second-row {
+            color: #1e00ff;
+            background-color: #f5f533;
+        }
+
+        tr.first-row:hover {
+            color: #1e00ff;
+            background-color: #f5f533;
+        }
+
+        tr.second-row:hover {
+            color: #000000;
+            background-color: #338f8f;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr class="first-row">
+            <td rowspan="2">Папіш</td>
+            <td>Яна</td>
+            <td rowspan="2" colspan="2">Олександрівна</td>
+        </tr>
+        <tr class="second-row">
+            <td>ЛР№2, Варіант 3</td>
+        </tr>
+        <tr class="third-row">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="fourth-row">
+            <td></td>
+            <td></td>
+            <td colspan="2"></td>
+        </tr>
+    </table>
+<div class="container">    
+        <div class="container-position">
+            <div class="square positionT-v1"></div>
+            <div class="square positionL-v1"></div>
+            <div class="square positionR-v1"></div>
+        </div>
+
+        <div class="container-transform">
+            <div class="square transformT-v2"></div>
+            <div class="square transformL-v2"></div>
+            <div class="square transformR-v2"></div>
+        </div>
+    </div>
+</body>
+</html>
