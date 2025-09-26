@@ -1,1 +1,62 @@
+.container {
+    display: flex;
+}
+
+.container-position {
+    position: relative;
+    width: 400px; 
+    height: 400px; 
+}
+
+.square {
+    width: 25%;
+    height: 25%;
+    border-radius: 17px;
+    border: 1px solid black;
+}
+
+.positionT-v1 {
+    top: 25%;
+    left: 37.5%;  
+    position: absolute;  
+    background: #9dc0ca;  
+    transform: rotate(45deg);
+}
+
+.positionL-v1 {
+    top: 50%;
+    left: 21.5%;  
+    position: absolute;
+    background: #f7eb13;
+    transform: rotate(17deg);
+}
+
+.positionR-v1 {
+    top: 50%;
+    right: 21.5%; 
+    position: absolute;
+    background: #76043f;
+    transform: rotate(-17deg);
+}
+
+.container-transform {
+    width: 400px;
+    height: 400px;
+}
+
+.transformT-v2 {
+    background: #9dc0ca;
+    transform: translate(150%, 100%) rotate(45deg);
+}
+
+.transformL-v2 {
+    background: #f7eb13;
+    transform: translate(86%, 100%) rotate(17deg);
+}
+
+.transformR-v2 {
+    background: #76043f;
+    transform: translate(214%, 0%) rotate(-17deg);
+}
+
 
